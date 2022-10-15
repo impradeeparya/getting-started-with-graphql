@@ -1,0 +1,17 @@
+{
+  "name": "node_graph_ql",
+  "version": "1.0.0",
+  "description": "getting started with graph QL with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "author": "Pradeep Arya",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.3",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
