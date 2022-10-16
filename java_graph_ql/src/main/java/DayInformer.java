@@ -34,7 +34,16 @@ public class DayInformer {
                         id: ID!
                         date: String!
                         temperature: Float!
-                        season: String!
+                        season: Ritu!
+                    }
+                    
+                    enum Ritu {
+                        VASANT
+                        GREESHM
+                        VARSHA
+                        SHARAD
+                        HEMMANT
+                        SHEET
                     }
                 """;
         SchemaParser schemaParser = new SchemaParser();
